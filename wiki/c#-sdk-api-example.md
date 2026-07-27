@@ -10,7 +10,7 @@ Follow these steps to create your implementation of the interface:
    1. Platform Target: `Any CPU`
 1. Reference the assembly powerGateServer.SDK ([download](https://github.com/coolOrangeLabs/powerGateTemplate/files/4831522/powerGateServer.SDK.zip))
 1. Copy the interface and required types:
-   1. [Interfaces](https://github.com/coolOrangeLabs/powerGateTemplate/tree/master/Files/powerGatePlugin/ErpServices/ErpManager/Interfaces)
-   1. [Metadata](https://github.com/coolOrangeLabs/powerGateTemplate/tree/master/Files/powerGatePlugin/ErpServices/Metadata)
+   1. [Interfaces](https://github.com/coolOrangeSamples/powerGateTemplate/blob/0dafc22b0be3d243376245856155fed163bd7949/Files/powerGateServerPlugin/DemoERPPlugin/ErpSystem.cs)
+   1. [Metadata](https://github.com/coolOrangeSamples/powerGateTemplate/blob/0dafc22b0be3d243376245856155fed163bd7949/Files/powerGateServerPlugin/DemoERPPlugin/ItemsService.cs#L9-L21)
 1. Create your implementation of `IErpManager`
 1. **Very important:** Changes to the interface should be avoided, but if necessary, propose a new interface to coolOrange in order to approve it.
